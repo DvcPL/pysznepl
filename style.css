@@ -1,0 +1,31 @@
+#div-select {
+    text-align: center;
+    border: 1px solid black;
+}
+#main-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#form-select {
+    margin-top: 10px;
+}
+#main-name {
+    text-align: center;
+}
+#form-input-name, #form-input-email, #form-input-tel, #form-input-adres, #form-input-info {
+  margin: 0 auto;
+  display: block
+
+}
+#paragraf-pierwszy , #paragraf-drugi{
+    font-weight: bold;
+    font-size: 20px;
+}
+.form-check-label {
+    font-weight: bold;
+}
+#btn-order {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
