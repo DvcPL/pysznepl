@@ -43,8 +43,8 @@ const name = document.getElementById('form-input-name').value
 order.name = name !== '' ? name : alert ('Podaj imie i nazwisko')
 
 // pobieramy email
-// order.email = email !== '' ? email : alert ('Podaj email')
-// sprawdzam czy w ciagu znakow jest @
+//order.email = email.search('@') && email.length > 3 ? email : alert ('Podaj email')
+// sprawdzam czy w ciagu znakow jest @ i czy jest dłuższy niż 3znaki
 const email = document.getElementById('form-input-email').value
 order.email = email.search('@') && email.length > 3 ? email : alert ('Podaj email')
 // console.log(email)
