@@ -1,4 +1,3 @@
-const pobierzDane = document.getElementById('btn-order')
 // tworzymy obiekt zamowienia
 const order = {
     pizza: '',
@@ -10,6 +9,7 @@ const order = {
     text:'',
     napoje:[]
 }
+const pobierzDane = document.getElementById('btn-order')
 pobierzDane.addEventListener('click', takeOrder)
 // piszemy funckje ktora to bedzie pobierac
 function takeOrder () {
